@@ -236,3 +236,64 @@ nav .fa-solid {
     }
     
 }
+
+
+/* our campus */
+
+.Campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.campus-col img{
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+.layer{
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.layer:hover{
+      background-color: rgba(256, 0, 0, 0.7);
+
+}
+
+.layer h3{
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    left:50%;
+    bottom:0;
+    transform: translateX(-50%);
+    position:absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+

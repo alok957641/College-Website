@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Faustina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 
 * {
     margin: 0;
@@ -39,8 +40,9 @@ nav {
 }
 
 .logo-div h1 {
-    font-weight: 900;
-    font-size: 30px;
+   font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
     color: #fff;
 }
 
@@ -132,8 +134,11 @@ nav .fa-solid {
      .header{
         overflow: hidden;
      }
+     .logo-div img{
+        width: 26px;
+     }
     .logo-div h1 {
-        font-size: 20px;
+        font-size: 16px;
     }
     .text-box h1 {
         font-size: 25px;
@@ -485,4 +490,69 @@ margin-bottom: 10px;
 
 .fa-heart{
     color:#f44336 ;
+}
+
+
+
+/* About  paage ke liye code hai */
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.4)) ,url(pexels-pixabay-267885.jpg);
+    background-position:center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header .about-txt{
+    margin-top:45px;
+}
+
+
+/* About sec content  */
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top:80px;
+    padding-bottom:50px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+    height: 300px;
+}
+
+.about-col h1{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.about-col p{
+    padding: 15px 0 25px;
+}
+
+.red-btn{
+    border: 1px solid #f44336;
+    color: #f44336;
+}
+
+.red-btn:hover{
+    color: #fff;
+}
+
+@media (max-width:700px) {
+
+    .sub-header{
+        position: relative;
+        overflow: hidden;
+    }
+    
 }
